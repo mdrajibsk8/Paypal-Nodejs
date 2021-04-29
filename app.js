@@ -4,7 +4,7 @@ const paypal = require('paypal-rest-sdk');
 paypal.configure({
   'mode': 'sandbox', //sandbox or live
   'client_id': 'client_id',
-  'client_secret': 'client_id'
+  'client_secret': 'client_secret'
 });
 
 const app = express();
